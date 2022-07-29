@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    background-color: rgb(99, 18, 18);
+
+    font-family: sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    width: 500px;
+    height: 280px;
+    background-color: rgb(165, 113, 122);
+
+    border-radius: 10px;
+    box-shadow: 0 5px 10px;
+}
+#title {
+    font-size: 25px;
+    font-weight: bold;
+
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.field {
+    width: 430px;
+    height: 80px;
+    border: 1px solid black;
+
+    font-size: 18px;
+
+    padding: 10px;
+    outline: none;
+    margin-top: 20px;
+
+    resize: none;
+}
+#main__footer {
+    width: 440px;
+    height: 40px;
+    border: none;
+
+    font-size: 18px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 25px;
+}
+.total__num {
+    color: rgb(12, 12, 68);
+}
+.remaining__num {
+    color: rgb(145, 7, 7);
+}
